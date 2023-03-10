@@ -14,8 +14,3 @@ router.handle()
 window.onpopstate = () => router.handle()
 window.route = () => router.route()
 
-const btn = document.querySelector("#btnExplorer")
-
-btn.addEventListener('click',()=>{
-    console.log('cliquei')
-})
